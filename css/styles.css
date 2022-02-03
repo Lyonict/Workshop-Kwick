@@ -1,0 +1,33 @@
+body{
+    height: 100vh;
+    background-image: url(../images/pexels-andy-vu-3484061.jpg);
+    background-size: cover;
+    background-position-y: 35%;
+    background-repeat: no-repeat;
+}
+
+h1{
+    color: #F93154;
+    text-shadow: black;
+    font-family: 'Bebas Neue';
+    font-weight: 400;
+}
+
+#container{
+    max-width: 20rem;
+    border-radius: 25px;
+    border: solid 2px lightgray;
+    box-shadow: lightgray;
+    overflow: hidden;
+}
+
+#register_form{
+    left: 400px;
+    transition: all 500ms ease-in-out;
+    width: 320px;
+}
+
+#login_form{
+    left: 0px;
+    transition: all 500ms ease-in-out;
+}
